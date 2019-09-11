@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const FilteredList = () => {
+const FilteredList = (props) => {
+	const [ allItems, setAllItems ] = useState('');
+
 	return <div />;
 };
 
